@@ -1,0 +1,9 @@
+# OS X
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+*.mp3
+node_modules/
+*.json
+.env
