@@ -1,0 +1,106 @@
+Gus has just met Walter White—the protagonist of the show, played by Brian Cranston—and in this scene, Gus is trying to convince Walter to work for him, no matter the cost
+
+This is the one in foriPhoneAppArrayFullSearch that's fucked up.  
+
+
+
+In betweet thenese two - we have a problem 
+no ,atter what he does - 
+
+His bussnes are- 
+
+OK, I need to go and figure out the doubles - at least in the "searching for the next text to highlight" in Tranlsations.
+
+He's appaeared in dozens of others movies and TV Show.
+
+ok, this is the one..
+
+Figure this out and then go to bed.
+
+
+
+////`
+
+sentence_from_transcript	String?	"  Gus first appeared in Breaking Bad—a mild-mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin."	some
+
+start	Double?	75.939999999999998
+end	Double?	84.409999999999997
+
+But that's not the right one  It should be the one prior - Gus.  It's sset to start on first.``
+
+
+'Gus first appeared in Breaking Bad a mildmannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin'
+
+'first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin'
+
+'Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug'
+
+
+Ok - so right now, what do I want to do?
+
+Take the iPhone array data, use that to test.
+
+Oh right but I want to test a few at a time, right?
+
+TODO: Use timecode hints
+What the fuck, I have time code hints.
+
+Should I use timecode hints?
+
+Hmmm probably don't trust those time codes hints, actually.
+
+Buuuuut what if the starts are ambiguous?
+
+He's appearch in dozens of other movies and TV SHOWs
+
+
+
+
+sentence	String	" And if you remember him for one role, back then, it’s probably as Buggin Out—the guy who organizes a boycott of Sal’s pizzeria in Do the Right Thing."	
+
+sentence_from_transcript	String?	" And if you remember him for one role, back then, it’s probably as Buggin Out—the guy who organizes a boycott of Sal’s pizzeria in Do the Right Thing."	some
+
+It's becase of the word count.  The match isn't right because it's not ingesting enough word sinto the sliced_string
+
+fuzzy_match": [
+          0.9463087248322147,
+          "Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin"
+        ],
+        "sliced_string": "Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug",
+
+
+        
+
+        'Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug'
+
+'Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug'
+
+'Gus first appeared in Breaking Bad a mild mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin'
+
+'He and his family moved to New York City when he was six years old'
+
+Do I put in extra spaces when there are dashes maybe?
+Because we are splitting it up according to spaces, right?
+
+THERE ARE TWO DASHES HERE!
+"  Gus first appeared in Breaking Bad—a mild-mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin"
+
+
+
+'  Gus first appeared in Breaking Bad—a mild-mannered but intense owner of a restaurant franchise who moonlights as a massively influential drug kingpin'
+
+
+NEXT STEP - GENERATE A FULL ALIGNMENT!  
+
+
+
+'  Coming to you from my home office, it’s Bullseye. I’m Linda Holmes, in for Jesse Thorn. Giancarlo Esposito was born in Copenhagen. The son of an Italian stagehand and an American singer. He and his family moved to New York City when he was six years old. And before long, he took up acting, performing on Broadway at first, then—as he grew up—movies. He appeared in many of Spike Lee’s early films. And if you remember him for one role, back then, it’s probably as Buggin Out—the guy who organizes…in Ferguson. Jesus Ambrosio is our associate producer. We get help from Casey O’Brien and Jordan Kauwling. Our interstitial music is by Dan Wally, also known as DJW. Our theme song’s by The Go! Team. Thanks to them and their label, Memphis Industries, for letting us use it. You can keep up with the show on Facebook, on Twitter, on YouTube. Search for Bullseye with Jesse Thorn. And I think that’s about it. Just remember: all great radio hosts have a signature sign off. Mine is, “Thanks, Jesse.”'
+
+
+I don't know that I'm in a clip.  
+So, do the thing - unlcess there is a CLIP. THen add the count of the previous clip to the "reasonable amount"?
+
+
+ Because Vince did say, “The town’s not big enough for both you and Walter.
+
+
